@@ -1,16 +1,16 @@
 {
-  "version": "1.3.0",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.3.0-setup.exe",
-  "sha256": "51aca4e3463f190b74e9964b386efba846b5e8c7016ac928c5dfeff83169b622",
+  "version": "1.4.0",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.4.0-setup.exe",
+  "sha256": "e0de4b70d60607da03855ae062bb21af1893a83e341ac00c6215ee6a702c3527",
   "notes": [
-    "Lessons are not pages any more. A concept arrives one example at a time, in the middle of the screen, and the code runs itself in front of you: the bar slides down the lines as they execute, values physically fly out of the line that made them and land in the box that holds them, and each new line of output slides into the console. Nothing jumps.",
-    "Then it hands the same program back and asks you to run it. You click the lines in the order they actually execute, and each right click plays the same motion you just watched. Getting a line wrong shakes it and costs you nothing.",
-    "One thing on screen at a time. Everything that is not the line being run steps back so there is exactly one place to look, and the caption under it is a single short line with the variable and its value in their own colors.",
-    "A back button on every question that returns you to the lesson, and lessons can be watched again as many times as you like. Before this, a lesson was a gate you passed once and could never reopen.",
-    "Long lines of code wrap instead of sliding off the edge, so nothing ever disappears mid explanation.",
-    "Home offers one way forward instead of three. The session you are in the middle of is the thing it puts in front of you.",
-    "The scratchpad shows what Java actually said underneath the plain English version, with the line numbers corrected to match the code you typed rather than the file the app wraps around it.",
-    "Running code no longer freezes the window while it compiles, and two runs can no longer start at once, which is what made the app feel like it had hung when you pressed Run twice."
+    "The road now starts at the beginning. Fourteen new lessons come before any AP material: what a program is, what a statement is, printing, what a variable is, what a type is, what the equals sign actually does, arithmetic, whole number division, joining text and numbers, the class and main wrapper, comments, and the difference between an error at compile time and one while running. Every one of them animates.",
+    "Lessons move properly now. The value you watch travel out of a line of code and into a box **is** the value in that box, and the line you watch fly into the console **is** the line in the console. Nothing is a copy that gets deleted, nothing appears after the motion stops, and several things move at once instead of taking turns.",
+    "Everything that used to appear or shift in a single frame now moves. Boxes slide aside to make room, the output pane is there before anything is printed, the caption reserves its space, and a condition turning true or false eases into its color.",
+    "After watching, you run it yourself: click the lines in the order they actually execute, and type what a println is going to print before it lands. Getting either wrong costs nothing.",
+    "The onboarding stopped believing lucky guesses. The last question asks how it actually felt, and saying it was all new means nothing you happened to get right is carried forward. It also no longer skips lessons: before this, one right answer at the start meant a concept's lesson could never be shown to you again, on any path, and it unlocked everything built on top of it.",
+    "Sessions are about two thirds hands on now instead of about half, and no single kind of question can take over a sitting.",
+    "Every piece of syntax in the reference has an Explain in detail button that runs a small program using it, with the same animation.",
+    "The concept pages animate too, so you can go back to the explanation for anything at any time."
   ],
   "date": "2026-09-04"
 }
