@@ -1,15 +1,11 @@
 {
-  "version": "1.8.0",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.8.0-setup.exe",
-  "sha256": "0c6fd2bc051026cd2557c780caf8a68e92a6043582c18d00c4add2986198e639",
+  "version": "1.9.0",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.9.0-setup.exe",
+  "sha256": "207cb01388b66f2c0ddc893c0b20b7c7f144bd7219e25afa6d90e53174093a0c",
   "notes": [
-    "A practice exam could be passed without reading it. Every multiple choice question in the course was written with the correct answer first, all 465 of them, and the exam screen was the one place that did not shuffle. So a full 42 question paper was the letter A the whole way down. Answers are shuffled per paper now, a second paper is laid out differently from the first, and the build fails if more than half the answers ever land in one position again.",
-    "Two multiple choice questions in a row, and the second one had no answers. React treats consecutive questions of the same kind as one component being re-rendered, so the shuffled answer order was worked out once and kept, and on the second question every id in it belonged to a question that was no longer on the screen. The prompt drew, the explanation drew, and there was nothing to click. Every question mounts fresh now.",
-    "A new question no longer flashes the last one's result. The right or wrong card was cleared after the screen had already been drawn, so the first frame of every question carried the previous question's verdict.",
-    "An ordering question says what is actually wrong with your answer. Putting lines in order fails in four different ways, and all four used to get the same \"not quite\": a line that belongs nowhere, a line still left in the tray, the right lines in the wrong sequence, and the right sequence at the wrong indentation. Each one is now told apart and named, and the sequence case says which position is the first one out of place.",
-    "A head start says what it is skipping, by name, and can be turned down. The placement result listed a number of topics and nothing else. It names them now, says plainly that they come back on a slower schedule rather than being taught, and there is a button to throw the whole head start away and start from the top, for anybody who answered ten questions more confidently than they meant to.",
-    "Long paragraphs have something to land on. Twenty two explanations ran past four hundred characters of unbroken gray text, and the build now refuses one that has nothing marked in it.",
-    "Every misconception response is written to be scanned. All 217 of them, plus every explanation and every \"why this matters\" note: 1041 fields gained emphasis, and a test renders all of them through the real component so none can print asterisks."
+    "The course says how much of the course it is. 36 of the College Board's 57 topics have lessons in this build, and until now the other 21 were simply absent: Unit 4 is 36 percent of the exam, five of its seventeen topics exist, and with the rest missing the unit read as finished. The map states the number at the top and names every missing topic under the unit it belongs to. Nothing else changes, because your progress and your questions were only ever about what is written.",
+    "The app no longer opens by saying it teaches the whole of AP Computer Science A, because it does not. That was a harmless thing to say to the person building it and the wrong thing to say to somebody revising off it.",
+    "The exam mode that was declared and never built is gone. Free response practice is real here, it is just not a timed section: it is the write and complete questions inside the course, each one showing the tests it is scored against before you start."
   ],
   "date": "2026-09-05"
 }
