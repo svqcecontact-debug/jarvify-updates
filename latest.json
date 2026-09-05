@@ -1,16 +1,11 @@
 {
-  "version": "1.6.0",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.6.0-setup.exe",
-  "sha256": "dd91f3a62835b42a5525d4a127a15ee73488b4586a452c8c710b813900c6057c",
+  "version": "1.7.0",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.7.0-setup.exe",
+  "sha256": "b02b894d258397ae6b5abf90293c8686430d67eb4b33f04eb437dda63f15c3de",
   "notes": [
-    "Right answers stopped looking like mistakes. The panel behind a correct answer used the accent color, which sits one or two points per channel away from the danger color, so getting one right lit up a warm red card with a red edge and a sentence inside it saying well done. Right is green now, wrong is red, and they are different colors.",
-    "Every caption in every lesson got its spaces back. A caption is built from separate pieces so the variable and its value can be colored differently, and each piece was quietly trimming the space at its own edge. So it read printsWake up, and totalstarts at0, in every lesson in the course.",
-    "Lessons run at a speed you can follow. Everything moves and pauses roughly sixty percent slower than it did, and Settings has Calm, Normal and Brisk if that is still wrong for you.",
-    "Values set off from the thing they came from. The spot to fly from was measured before the panel grew a row and used after it, so a value left from wherever its token had been standing a moment earlier, which from the outside is a random point near the code.",
-    "The code stops sliding around while you read it. The variable panel and the output console now reserve the room they will need from the first frame, so a new variable or a printed line no longer pushes the whole program up half a row mid sentence.",
-    "Somebody who has never written a line is not shown a variable. The third lesson in the course opened with int score = 91, and the lesson that explains what a variable is came after it; nine of that first topic's fifteen exercises declared one. Variables now come before everything that uses them, and the app refuses to build a lesson that uses syntax it has not taught yet.",
-    "You say how long you have before you start. Five, ten or twenty minutes, turned into a number of questions using the pace it has measured from you rather than an average of everybody.",
-    "A question with spare pieces says so. The card drawing question puts five steps in the tray and wants four, and nothing said the fifth was there to be left out. It says so now, and if you use one anyway it tells you which one and that it was never part of this."
+    "The button that says you do not understand something now explains it. It used to mark the concept as lost and move straight on to the next question, which made it the only button in the app that answered I do not get this by changing the subject. It opens the lesson instead, and the question is still there afterward.",
+    "Every explanation in the course is a list now, not a wall. All 197 of them: the lede sentence, then the facts as bullets with the term that matters in bold, then the payoff. What was there before was three dense paragraphs per concept, at reading width, which is the shape you skim rather than read. Nothing was reworded to do it, and the build refuses any explanation that quietly gains a word it did not have before.",
+    "The syntax reference explains the words that do not compute anything, instead of running a program that happens to contain them. class, public, private, static, final and void each show their own skeleton line by line with what every line is for. The old class walkthrough squared a number inside a class, which is a fine demonstration of squaring a number."
   ],
   "date": "2026-09-05"
 }
