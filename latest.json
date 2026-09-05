@@ -1,9 +1,16 @@
 {
-  "version": "1.5.1",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.5.1-setup.exe",
-  "sha256": "9243da7a73a97865fba6e478c397d807159929dc66ede248992ad964f00fcea1",
+  "version": "1.6.0",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.6.0-setup.exe",
+  "sha256": "dd91f3a62835b42a5525d4a127a15ee73488b4586a452c8c710b813900c6057c",
   "notes": [
-    "The teaching pictures move again. Every one of them was written to arrive a piece at a time, and not one of them did: the line that set that up wrote the animation as a shorthand with a variable inside it and then overrode part of it, which leaves the browser holding an animation with no name at all. Nothing errored. They simply appeared, instantly, which is the one thing this app is trying not to do, and it was happening in every picture in the course."
+    "Right answers stopped looking like mistakes. The panel behind a correct answer used the accent color, which sits one or two points per channel away from the danger color, so getting one right lit up a warm red card with a red edge and a sentence inside it saying well done. Right is green now, wrong is red, and they are different colors.",
+    "Every caption in every lesson got its spaces back. A caption is built from separate pieces so the variable and its value can be colored differently, and each piece was quietly trimming the space at its own edge. So it read printsWake up, and totalstarts at0, in every lesson in the course.",
+    "Lessons run at a speed you can follow. Everything moves and pauses roughly sixty percent slower than it did, and Settings has Calm, Normal and Brisk if that is still wrong for you.",
+    "Values set off from the thing they came from. The spot to fly from was measured before the panel grew a row and used after it, so a value left from wherever its token had been standing a moment earlier, which from the outside is a random point near the code.",
+    "The code stops sliding around while you read it. The variable panel and the output console now reserve the room they will need from the first frame, so a new variable or a printed line no longer pushes the whole program up half a row mid sentence.",
+    "Somebody who has never written a line is not shown a variable. The third lesson in the course opened with int score = 91, and the lesson that explains what a variable is came after it; nine of that first topic's fifteen exercises declared one. Variables now come before everything that uses them, and the app refuses to build a lesson that uses syntax it has not taught yet.",
+    "You say how long you have before you start. Five, ten or twenty minutes, turned into a number of questions using the pace it has measured from you rather than an average of everybody.",
+    "A question with spare pieces says so. The card drawing question puts five steps in the tray and wants four, and nothing said the fifth was there to be left out. It says so now, and if you use one anyway it tells you which one and that it was never part of this."
   ],
   "date": "2026-09-05"
 }
