@@ -1,0 +1,16 @@
+{
+  "version": "1.1.0",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.1.0-setup.exe",
+  "sha256": "47f5c909ab2f367719fc91d0087e89772a60071d322b2a28cd56acbdce3a3c8e",
+  "notes": [
+    "Every Java word and every piece of punctuation is clickable, in the code and in the writing. Hover it or click it and it says what it is and what it gets confused with.",
+    "New concepts show you the code first and one sentence about it. The long explanation is still there, one click down, if you want it.",
+    "The road: everything between here and the exam as a path you walk down, with anything that has slipped put back in front of you.",
+    "Leaving halfway through no longer loses your place. Home offers to put you back where you were.",
+    "Nudges come one at a time instead of stacking into a wall of text.",
+    "The scratchpad opens over anything, including a question, and refuses to run the question at you.",
+    "Home says what a session is going to contain before you start it.",
+    "A syntax reference: every piece of Java the exam can ask about, on one page, searchable, with the trap in each one and the thing it gets confused with."
+  ],
+  "date": "2026-09-04"
+}
