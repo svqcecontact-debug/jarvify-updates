@@ -1,16 +1,10 @@
 {
-  "version": "1.2.0",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.2.0-setup.exe",
-  "sha256": "703b90b8c01a6d73342e0c6882646efdd8377a2870935c5b410aabc647a6fa7f",
+  "version": "1.2.1",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.2.1-setup.exe",
+  "sha256": "42c56756455ef0cff04a7842c81226febb8300abcbd53a77cb5290d8d089a18f",
   "notes": [
-    "Lessons run. A new concept opens on the code executing itself: the line about to run and the line that just ran both marked, the variables filling in beside it, the output arriving a line at a time. It stops before the first thing is printed and asks you what it will be, because watching an animation teaches almost nothing and predicting one teaches a lot.",
-    "Get a question wrong and you see the same code actually run, not only a paragraph about it.",
-    "Everything under that is a real Java interpreter, checked line by line against the JDK inside this installer. Integer division, int overflow, char arithmetic, == against equals, short circuits and the braceless if all behave exactly as they do on the exam.",
-    "Looking something up no longer loses your session. It waits, with a chip in the title bar on every screen showing how far in you are, and you come back to the same question rather than a rebuilt one.",
-    "Hovering a word shows a card that was designed. It sits above what you are reading instead of under the cursor, appears in a quarter of a second in code and a little slower in a sentence, and there are no underlines anywhere any more.",
-    "The twenty four places that still used the operating system's own tooltip do not any more.",
-    "Keyboard shortcuts that were hidden inside those tooltips are printed on the buttons.",
-    "The progress bar no longer collapses to nothing when a concept has a long name, and the card offering your place back no longer prints one word per line at a small window."
+    "The lesson leads with the code running. The one line summary moved to underneath it, as its caption, rather than being the thing you read before you get to the example.",
+    "The example's title is printed once instead of twice."
   ],
   "date": "2026-09-04"
 }
