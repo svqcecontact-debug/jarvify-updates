@@ -1,11 +1,13 @@
 {
-  "version": "1.9.0",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.9.0-setup.exe",
-  "sha256": "207cb01388b66f2c0ddc893c0b20b7c7f144bd7219e25afa6d90e53174093a0c",
+  "version": "1.10.0",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.10.0-setup.exe",
+  "sha256": "e70a65dbc74052cd9740a5f3c301dfcf26b3abcad105f15bd83fbadfcc0fc1f4",
   "notes": [
-    "The course says how much of the course it is. 36 of the College Board's 57 topics have lessons in this build, and until now the other 21 were simply absent: Unit 4 is 36 percent of the exam, five of its seventeen topics exist, and with the rest missing the unit read as finished. The map states the number at the top and names every missing topic under the unit it belongs to. Nothing else changes, because your progress and your questions were only ever about what is written.",
-    "The app no longer opens by saying it teaches the whole of AP Computer Science A, because it does not. That was a harmless thing to say to the person building it and the wrong thing to say to somebody revising off it.",
-    "The exam mode that was declared and never built is gone. Free response practice is real here, it is just not a timed section: it is the write and complete questions inside the course, each one showing the tests it is scored against before you start."
+    "ArrayList is in the course. It was the largest hole in it: free response question 3 is entirely ArrayList and there was not one lesson, one exercise or one line of it anywhere. Topic 4.8 is seven concepts, twenty six exercises across fourteen kinds and seven of the beliefs people actually hold, covering add, size, get, set, add at an index, remove, and which indexes each of them will accept.",
+    "The lessons for it animate. Every worked example runs in the app's own Java and its output was checked against the real compiler, so the shifting that add and remove do is something you watch happen rather than something a paragraph asserts.",
+    "A list index outside the list now stops the program, the way an array's already did. Four things were wrong underneath and two of them were silent: add at an index past the end quietly appended instead of throwing, and remove past the end quietly did nothing at all, so an animation could confidently show a program doing something Java refuses to do. An out of range set reported that set did not exist.",
+    "Two questions that asked you to click part of a line were highlighting the wrong characters. One asked for the condition that tests for the sentinel and highlighted the word while and half a variable name. The build now checks that a highlight lands on something rather than on whitespace, which is what found both.",
+    "A code question with no starter is refused at build time. It left the editor empty with no method signature in it, so nothing on the screen said what the tests were about to call."
   ],
   "date": "2026-09-05"
 }
