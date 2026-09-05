@@ -1,16 +1,9 @@
 {
-  "version": "1.5.0",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.5.0-setup.exe",
-  "sha256": "42d5915a66d24b24651438ea08664c5218cffbcb183d4def9cb81e861ee6f438",
+  "version": "1.5.1",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.5.1-setup.exe",
+  "sha256": "9243da7a73a97865fba6e478c397d807159929dc66ede248992ad964f00fcea1",
   "notes": [
-    "A brand new learner starts at the beginning again. Saying you had never written a line of code, and being told on the next screen that the course would start you from the very beginning, was followed by a first session about arrays, then about privacy in data collection. Twelve concepts across three units had no prerequisites recorded against them, which made every one of them a place the course could start from, and the ones in the unit worth the most on the exam won. There is one way in now, and it is the first lesson.",
-    "Every lesson has something to look at now. Twenty two of them, including the whole of the reliability topic and most of the two data topics, were a title, a sentence and a wall of writing with a code comment in the middle of it. Each one now opens with a picture: the table with the one missing row in it, the two sides of a comparison, the order the uses of a program actually came in. The app refuses to build a lesson without one from now on.",
-    "Programs that crash now crash in front of you. Reading past the end of an array, calling a method on null, dividing a whole number by zero and handing parseInt something that is not a number all used to make the entire animation disappear and fall back to plain text, in exactly the lessons that exist to teach those crashes. The program now runs up to the moment it stops, the line that stopped it turns red and is named with the real Java exception, and every line under it is struck through, because the thing being taught is that they never run.",
-    "The methods you are shown now actually run. Nine worked examples defined a method and then never called it, so there was nothing to watch, and that included every running total, average and largest so far example in the loops topic. Each one now calls itself with the values its own comment already described, so you watch the arguments arrive, the loop turn, and the answer come back out.",
-    "Integer.parseInt and Double.parseDouble work, so the topic about turning typed text into a number can show it happening, including the part where handing it 19.99 stops the program dead.",
-    "Bold and italic across the whole course instead of the first unit. Every concept's headline sentence, and four hundred more questions and explanations, now put the words the answer actually turns on in front of everything else.",
-    "The search box was printing its own formatting marks. Every concept it listed arrived with asterisks around the important words instead of those words being bold.",
-    "The reminder setting is gone. It let you pick an hour, and even offered to move it to whichever hour you turn out to answer best in, and then nothing ever reminded you, because the app cannot run while it is closed. Stats still shows you when you are most accurate, as something it noticed rather than something it promised."
+    "The teaching pictures move again. Every one of them was written to arrive a piece at a time, and not one of them did: the line that set that up wrote the animation as a shorthand with a variable inside it and then overrode part of it, which leaves the browser holding an animation with no name at all. Nothing errored. They simply appeared, instantly, which is the one thing this app is trying not to do, and it was happening in every picture in the course."
   ],
   "date": "2026-09-05"
 }
