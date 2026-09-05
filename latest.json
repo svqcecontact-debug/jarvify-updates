@@ -1,16 +1,16 @@
 {
-  "version": "1.1.0",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.1.0-setup.exe",
-  "sha256": "47f5c909ab2f367719fc91d0087e89772a60071d322b2a28cd56acbdce3a3c8e",
+  "version": "1.2.0",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.2.0-setup.exe",
+  "sha256": "703b90b8c01a6d73342e0c6882646efdd8377a2870935c5b410aabc647a6fa7f",
   "notes": [
-    "Every Java word and every piece of punctuation is clickable, in the code and in the writing. Hover it or click it and it says what it is and what it gets confused with.",
-    "New concepts show you the code first and one sentence about it. The long explanation is still there, one click down, if you want it.",
-    "The road: everything between here and the exam as a path you walk down, with anything that has slipped put back in front of you.",
-    "Leaving halfway through no longer loses your place. Home offers to put you back where you were.",
-    "Nudges come one at a time instead of stacking into a wall of text.",
-    "The scratchpad opens over anything, including a question, and refuses to run the question at you.",
-    "Home says what a session is going to contain before you start it.",
-    "A syntax reference: every piece of Java the exam can ask about, on one page, searchable, with the trap in each one and the thing it gets confused with."
+    "Lessons run. A new concept opens on the code executing itself: the line about to run and the line that just ran both marked, the variables filling in beside it, the output arriving a line at a time. It stops before the first thing is printed and asks you what it will be, because watching an animation teaches almost nothing and predicting one teaches a lot.",
+    "Get a question wrong and you see the same code actually run, not only a paragraph about it.",
+    "Everything under that is a real Java interpreter, checked line by line against the JDK inside this installer. Integer division, int overflow, char arithmetic, == against equals, short circuits and the braceless if all behave exactly as they do on the exam.",
+    "Looking something up no longer loses your session. It waits, with a chip in the title bar on every screen showing how far in you are, and you come back to the same question rather than a rebuilt one.",
+    "Hovering a word shows a card that was designed. It sits above what you are reading instead of under the cursor, appears in a quarter of a second in code and a little slower in a sentence, and there are no underlines anywhere any more.",
+    "The twenty four places that still used the operating system's own tooltip do not any more.",
+    "Keyboard shortcuts that were hidden inside those tooltips are printed on the buttons.",
+    "The progress bar no longer collapses to nothing when a concept has a long name, and the card offering your place back no longer prints one word per line at a small window."
   ],
   "date": "2026-09-04"
 }
