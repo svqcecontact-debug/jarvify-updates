@@ -1,13 +1,11 @@
 {
-  "version": "1.10.0",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.10.0-setup.exe",
-  "sha256": "e70a65dbc74052cd9740a5f3c301dfcf26b3abcad105f15bd83fbadfcc0fc1f4",
+  "version": "1.11.0",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.11.0-setup.exe",
+  "sha256": "6cb3f5426bf138f097c326225b584c9657e8d0e434925b5a8fc21fa75329030f",
   "notes": [
-    "ArrayList is in the course. It was the largest hole in it: free response question 3 is entirely ArrayList and there was not one lesson, one exercise or one line of it anywhere. Topic 4.8 is seven concepts, twenty six exercises across fourteen kinds and seven of the beliefs people actually hold, covering add, size, get, set, add at an index, remove, and which indexes each of them will accept.",
-    "The lessons for it animate. Every worked example runs in the app's own Java and its output was checked against the real compiler, so the shifting that add and remove do is something you watch happen rather than something a paragraph asserts.",
-    "A list index outside the list now stops the program, the way an array's already did. Four things were wrong underneath and two of them were silent: add at an index past the end quietly appended instead of throwing, and remove past the end quietly did nothing at all, so an animation could confidently show a program doing something Java refuses to do. An out of range set reported that set did not exist.",
-    "Two questions that asked you to click part of a line were highlighting the wrong characters. One asked for the condition that tests for the sentinel and highlighted the word while and half a variable name. The build now checks that a highlight lands on something rather than on whitespace, which is what found both.",
-    "A code question with no starter is refused at build time. It left the editor empty with no method signature in it, so nothing on the screen said what the tests were about to call."
+    "Walking an ArrayList is in the course. Topic 4.9 is five concepts and fifteen exercises about the indexed loop, the enhanced for, and the two ways removing while you walk goes wrong. Those two are separated on purpose, because they are the same mistake in different loops and they fail completely differently: the indexed one skips an element and hands back a wrong answer without complaining, and the enhanced for stops the program. Knowing not to remove while looping is no use if you cannot tell which of those you are looking at.",
+    "Changing a list inside an enhanced for now stops, the way Java stops. The interpreter did not have this at all, so a lesson could animate a loop quietly skipping elements when the real program throws ConcurrentModificationException on the second turn. It is Java's actual iterator now, which means it also gets the two cases that do not throw right: replacing an element is legal, and a removal that happens to leave nothing left to fetch finishes quietly, which is where the belief that any of this is safe comes from.",
+    "The trap lessons animate the exception rather than describing it. Both removal traps and the off by one now run to the point where the program stops and show it stopping."
   ],
   "date": "2026-09-05"
 }
