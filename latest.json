@@ -1,11 +1,13 @@
 {
-  "version": "1.12.0",
-  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.12.0-setup.exe",
-  "sha256": "61cbce6d652e47ddccc4a4acb3b5fb691bbeb78b51322f237c9be6b4790269c3",
+  "version": "1.13.0",
+  "url": "https://raw.githubusercontent.com/svqcecontact-debug/jarvify-updates/main/jarvify-1.13.0-setup.exe",
+  "sha256": "3699d366f4a27b36d78e23970ff97b9d7d05fe89b1a3e88f01bd77d46a97fa84",
   "notes": [
-    "ArrayList is finished. Topic 4.10 is the six standard algorithms on a list: totalling and averaging, the largest and smallest, counting and the any and all flags, finding a value, building a second list, and comparing each element with the next. Six concepts, seventeen exercises, and it is deliberately the same six as the 2D array topic, because they are the same six and nobody should have to learn them twice.",
-    "Every trap in it is a real one with a real reason. Starting a maximum at 0 and getting an answer that is not in the list. An average that prints 5.0 when it should print 5.666, because both sides of the slash were ints and the decimals were gone before the double got a look in. A counter declared inside the loop. An any check with an else that throws its own answer away. A search with nothing stopping it, so it reports the last match instead of the first.",
-    "The course now teaches 39 of the College Board's 57 topics, and all three ArrayList topics are among them, which is the whole of free response question 3."
+    "Writing a class is in the course. Three topics at once: writing constructors, writing methods, and what happens when a method is handed an object. Thirteen concepts, thirty six exercises, and it is free response question 2, which is seven of the twenty five free response points and had nothing behind it before this.",
+    "The two silent failures in a constructor are taught as the point rather than as a footnote. A stray void turns the whole thing into an ordinary method that happens to share the class name, so the class keeps the free no-arg constructor, new Dog() still compiles, and every field is left at its default with nothing anywhere complaining. And a field the constructor forgets does not stay empty: it holds 0, false or null, and the null one comes back later as a NullPointerException in code that is perfectly correct.",
+    "Passing an object is taught without the phrase pass by reference, deliberately. Java copies the argument every time, and for an object what gets copied is the reference, so changing the object through the parameter is visible and assigning a whole new object to the parameter is not. The loose phrase gets the first one right and the second one wrong every time, so the topic states the rule the way that makes both fall out.",
+    "A private field handed out by a getter is not private any more. A list returned from a getter can be added to from outside the class without going near any method the class approved of, and the lesson shows it happening rather than warning about it.",
+    "The course now teaches 42 of the College Board's 57 topics."
   ],
-  "date": "2026-09-05"
+  "date": "2026-09-09"
 }
